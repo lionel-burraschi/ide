@@ -1,0 +1,112 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+body {
+    background-image:url(brackets-background-img.jpg);
+}
+
+#img-brackets {
+    display: flex;
+    justify-content: center;
+}
+
+.img-brackets-container {
+    background-color: white;
+    text-shadow: 85px 85px 10px gray;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 25%;
+}
+
+.img-brackets-container a img {
+    width: 15vw;
+    animation: 4s infinite tourne;
+}
+
+@keyframes tourne {
+    0%,50%{}
+    100%{transform: rotateZ(360deg);}
+}
+
+h2 {
+    font-family: 'Chilanka', cursive;
+    font-size:1.5em;
+}
+
+#container {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bloc1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+    margin: 20px;
+    opacity: 80%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.bloc2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc2 img {
+    width: 25vw;
+    border: solid 5px white;
+}
+
+.screen:hover {
+    transform: scale(2.5);
+    transition: 1s;
+}
+
+.bloc3 a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito S,sans-serif;
+    color: rgb(255, 255, 255);
+    font-size:1.4em;
+}
+
+.bloc3 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.bloc4 {
+    text-align: center;
+    padding: 0px;
+    margin: 30px;
+}
+
+.bloc4 img {
+    width: 18vw;
+}
+
+.bloc4 img:hover {
+    width: 23vw;
+}
+
+#footerid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+    border-radius: 3px;
+}
+
+.socialnetwork {
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.socialnetwork img:hover {
+    opacity: 70%;
+}

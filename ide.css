@@ -1,0 +1,91 @@
+
+body {
+    background-image: linear-gradient(#ffffff, rgb(128, 128, 128));
+}
+
+main {
+	padding: none;
+	margin: 0;
+	font-family: trebuchet, sans-serif;
+    font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3vh 0;
+    list-style: none;
+    background-color: rgb(153, 0, 255);
+    opacity: 90%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    background-image: url("logo-ide.png");
+}
+
+#navbar a {
+    font-size: x-large;
+}
+
+
+#navbar a {
+    font-family: trebuchet, sans-serif;
+    text-decoration: none;;
+    color: rgb(255, 255, 255);
+}
+
+#navbar ul a:hover {
+    color: #000000;
+}
+
+#ide_container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 7vh;
+}
+
+#ide_container a:hover {
+    opacity: 0.8; 
+}
+
+#ide_container img {
+    width: 10vw;
+}
+
+.bracketside, .ecpliseide, .visualstudioide {
+    width: 25vw;
+	height: 60vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+	border-radius: 5px;
+    padding-top: 3vh;
+    background-color: white;
+}
+
+.bracketside p, .ecpliseide p, .visualstudioide p {
+    padding: 2vw;
+}
+
+#footerid {
+	background-color: #292C2E;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	width: 100%;
+	align-items: center;
+    padding: 1vh 0;
+    border-radius: 5px;
+}
+
+.copyright {
+    font-family: trebuchet, sans-serif;
+    font-weight: 600;
+}
